@@ -32,7 +32,6 @@ export class CoffeesService {
       ...createCoffeeDto,
     };
     this.coffees.push(newCoffee);
-    console.log(createCoffeeDto instanceof CreateCoffeeDto);
     return createCoffeeDto;
   }
 
